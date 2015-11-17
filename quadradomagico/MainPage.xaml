@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
         <Grid Margin="0,140,0,0" Background="{ThemeResource ApplicationForegroundThemeBrush}"
               VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
             <Grid.RowDefinitions>
@@ -26,8 +27,8 @@
 
             <Grid Grid.Row="0" Grid.ColumnSpan="4"            
         		Width="340" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-                HorizontalAlignment="Stretch"
-                Margin="0, 20, 0, 20">
+        		HorizontalAlignment="Stretch"
+        		Margin="0, 20, 0, 20">
 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
@@ -42,87 +43,87 @@
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                                 
+
                 <Button Grid.Row="0" Grid.Column="0" 
         			x:Name="btnCell_0" Content=""
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch"    
-                    Margin="15"
+        			HorizontalAlignment="Stretch"
+        			VerticalAlignment="Stretch"    
+        			Margin="15"
         			Background="{StaticResource SystemControlBackgroundAccentBrush}" 
-                    Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
-                    Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
-                
+        			Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
+        			Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
+
                 <Button Grid.Row="0" Grid.Column="1" 
         			x:Name="btnCell_1" Content=""     
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch"    
-                    Margin="15"
+        			HorizontalAlignment="Stretch"
+        			VerticalAlignment="Stretch"    
+        			Margin="15"
         			Background="{StaticResource SystemControlBackgroundAccentBrush}" 
-                    Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
-                    Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
-                
+        			Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
+        			Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
+
                 <Button Grid.Row="0" Grid.Column="2" 
         			x:Name="btnCell_2" Content=""
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch"    
-                    Margin="15"
+        			HorizontalAlignment="Stretch"
+        			VerticalAlignment="Stretch"    
+        			Margin="15"
         			Background="{StaticResource SystemControlBackgroundAccentBrush}" 
-                    Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
-                    Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
-                
+        			Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
+        			Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
+
                 <Button Grid.Row="1" Grid.Column="0" 
         			x:Name="btnCell_3" Content=""
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch"    
-                    Margin="15"
+        			HorizontalAlignment="Stretch"
+        			VerticalAlignment="Stretch"    
+        			Margin="15"
         			Background="{StaticResource SystemControlBackgroundAccentBrush}" 
-                    Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
-                    Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
-                
+        			Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
+        			Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
+
                 <Button Grid.Row="1" Grid.Column="1" 
         			x:Name="btnCell_4" Content=""
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch"    
-                    Margin="15"
+        			HorizontalAlignment="Stretch"
+        			VerticalAlignment="Stretch"    
+        			Margin="15"
         			Background="{StaticResource SystemControlBackgroundAccentBrush}" 
-                    Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
-                    Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
-                
+        			Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
+        			Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
+
                 <Button Grid.Row="1" Grid.Column="2" 
         			x:Name="btnCell_5" Content=""
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch"    
-                    Margin="15"
+        			HorizontalAlignment="Stretch"
+        			VerticalAlignment="Stretch"    
+        			Margin="15"
         			Background="{StaticResource SystemControlBackgroundAccentBrush}" 
-                    Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
-                    Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
-                
+        			Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
+        			Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
+
                 <Button Grid.Row="2" Grid.Column="0" 
         			x:Name="btnCell_6" Content=""
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch"    
-                    Margin="15"
+        			HorizontalAlignment="Stretch"
+        			VerticalAlignment="Stretch"    
+        			Margin="15"
         			Background="{StaticResource SystemControlBackgroundAccentBrush}" 
-                    Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
-                    Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
-                
+        			Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
+        			Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
+
                 <Button Grid.Row="2" Grid.Column="1" 
         			x:Name="btnCell_7" Content=""
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch"    
-                    Margin="15"
+        			HorizontalAlignment="Stretch"
+        			VerticalAlignment="Stretch"    
+        			Margin="15"
         			Background="{StaticResource SystemControlBackgroundAccentBrush}" 
-                    Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
-                    Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
-                
+        			Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
+        			Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
+
                 <Button Grid.Row="2" Grid.Column="2" 
         			x:Name="btnCell_8" Content=""
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch"    
-                    Margin="15"
+        			HorizontalAlignment="Stretch"
+        			VerticalAlignment="Stretch"    
+        			Margin="15"
         			Background="{StaticResource SystemControlBackgroundAccentBrush}" 
-                    Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
-                    Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
+        			Height="{Binding ActualWidth, ElementName=btnCell_3, Mode=OneWay}" 
+        			Width="{Binding ActualHeight, ElementName=btnCell_3, Mode=OneWay}"/>
 
                 <Ellipse Grid.Row="0" Grid.Column="3" Height="40" Width="40"
         			HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
@@ -150,61 +151,86 @@
         			Fill="{StaticResource AppBarItemPointerOverForegroundThemeBrush}" Margin="10"/>
             </Grid>
 
-            <Button Grid.Row="1" Grid.Column="0"
-        		x:Name="button" Content="1"
+            <Border Grid.Row="1" Grid.Column="0"
+        		x:Name="number1"
+                CanDrag="True"
         		VerticalAlignment="Center" HorizontalAlignment="Center"
         		Height="{Binding ActualHeight, ElementName=btnCell_0, Mode=OneWay}"
         		Width="{Binding ActualWidth, ElementName=btnCell_0, Mode=OneWay}" 
-                Background="{ThemeResource SystemControlBackgroundAccentBrush}" />
+        		Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">1</TextBlock>
+            </Border>
 
-            <Button Grid.Row="1" Grid.Column="1"
-        		x:Name="button_Copy2" Content="2"
+            <Border Grid.Row="1" Grid.Column="1"
+        		x:Name="number2"
+                CanDrag="True"
         		VerticalAlignment="Center" HorizontalAlignment="Center"
-        		Height="{Binding ActualHeight, ElementName=btnCell_0}"
-        		Width="{Binding ActualWidth, ElementName=btnCell_0}" 
-                Background="{ThemeResource SystemControlBackgroundAccentBrush}" />
+        		Height="{Binding ActualHeight, ElementName=btnCell_0, Mode=OneWay}"
+        		Width="{Binding ActualWidth, ElementName=btnCell_0, Mode=OneWay}" 
+        		Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">2</TextBlock>
+            </Border>
 
-            <Button Grid.Row="1" Grid.Column="2"
-        		x:Name="button_Copy3" Content="3"
+            <Border Grid.Row="1" Grid.Column="2"
+        		x:Name="button3"
+                CanDrag="True"
         		VerticalAlignment="Center" HorizontalAlignment="Center"
-        		Height="{Binding ActualHeight, ElementName=btnCell_0}"
-        		Width="{Binding ActualWidth, ElementName=btnCell_0}" 
-                Background="{ThemeResource SystemControlBackgroundAccentBrush}" />
+        		Height="{Binding ActualHeight, ElementName=btnCell_0, Mode=OneWay}"
+        		Width="{Binding ActualWidth, ElementName=btnCell_0, Mode=OneWay}" 
+        		Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">3</TextBlock>
+            </Border>
 
-            <Button Grid.Row="1" Grid.Column="3"
-        		x:Name="button_Copy4" Content="4"
+            <Border Grid.Row="1" Grid.Column="3"
+        		x:Name="button4"
+                CanDrag="True"
         		VerticalAlignment="Center" HorizontalAlignment="Center"
-        		Height="{Binding ActualHeight, ElementName=btnCell_0}"
-        		Width="{Binding ActualWidth, ElementName=btnCell_0}" 
-                Background="{ThemeResource SystemControlBackgroundAccentBrush}" />
+        		Height="{Binding ActualHeight, ElementName=btnCell_0, Mode=OneWay}"
+        		Width="{Binding ActualWidth, ElementName=btnCell_0, Mode=OneWay}" 
+        		Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">4</TextBlock>
+            </Border>
 
-            <Button Grid.Row="2" Grid.Column="0"
-        		x:Name="button2" Content="5"
+            <Border Grid.Row="2" Grid.Column="0"
+        		x:Name="button5"
+                CanDrag="True"
         		VerticalAlignment="Center" HorizontalAlignment="Center"
-        		Height="{Binding ActualHeight, ElementName=btnCell_0}"
-        		Width="{Binding ActualWidth, ElementName=btnCell_0}"
-                Background="{ThemeResource SystemControlBackgroundAccentBrush}" />
+        		Height="{Binding ActualHeight, ElementName=btnCell_0, Mode=OneWay}"
+        		Width="{Binding ActualWidth, ElementName=btnCell_0, Mode=OneWay}" 
+        		Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">5</TextBlock>
+            </Border>
 
-            <Button Grid.Row="2" Grid.Column="1"
-        		x:Name="button_Copy23" Content="6"
+            <Border Grid.Row="2" Grid.Column="1"
+        		x:Name="button"
+                CanDrag="True"
         		VerticalAlignment="Center" HorizontalAlignment="Center"
-        		Height="{Binding ActualHeight, ElementName=btnCell_0}"
-        		Width="{Binding ActualWidth, ElementName=btnCell_0}"
-                Background="{ThemeResource SystemControlBackgroundAccentBrush}" />
+        		Height="{Binding ActualHeight, ElementName=btnCell_0, Mode=OneWay}"
+        		Width="{Binding ActualWidth, ElementName=btnCell_0, Mode=OneWay}" 
+        		Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">6</TextBlock>
+            </Border>
 
-            <Button Grid.Row="2" Grid.Column="2"
-        		x:Name="button_Copy33" Content="7"
+            <Border Grid.Row="2" Grid.Column="2"
+        		x:Name="button7"
+                CanDrag="True"
         		VerticalAlignment="Center" HorizontalAlignment="Center"
-        		Height="{Binding ActualHeight, ElementName=btnCell_0}"
-        		Width="{Binding ActualWidth, ElementName=btnCell_0}"
-                Background="{ThemeResource SystemControlBackgroundAccentBrush}" />
+        		Height="{Binding ActualHeight, ElementName=btnCell_0, Mode=OneWay}"
+        		Width="{Binding ActualWidth, ElementName=btnCell_0, Mode=OneWay}" 
+        		Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">7</TextBlock>
+            </Border>
 
-            <Button Grid.Row="2" Grid.Column="3"
-        		x:Name="button_Copy42" Content="8"
+            <Border Grid.Row="2" Grid.Column="3"
+        		x:Name="button8"
+                CanDrag="True"
         		VerticalAlignment="Center" HorizontalAlignment="Center"
-        		Height="{Binding ActualHeight, ElementName=btnCell_0}"
-        		Width="{Binding ActualWidth, ElementName=btnCell_0}"
-                Background="{ThemeResource SystemControlBackgroundAccentBrush}" />
+        		Height="{Binding ActualHeight, ElementName=btnCell_0, Mode=OneWay}"
+        		Width="{Binding ActualWidth, ElementName=btnCell_0, Mode=OneWay}" 
+        		Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">8</TextBlock>
+            </Border>
+
 
         </Grid>
 
